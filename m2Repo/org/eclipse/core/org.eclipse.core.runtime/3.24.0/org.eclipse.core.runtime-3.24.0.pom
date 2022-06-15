@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xsi:noNamespaceSchemaLocation="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.eclipse.core</groupId>
+  <artifactId>org.eclipse.core.runtime</artifactId>
+  <version>3.24.0</version>
+  <description>Core Runtime</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse.osgi</groupId>
+      <artifactId>org.eclipse.osgi</artifactId>
+      <version>[3.17.0,4.0.0)</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.equinox</groupId>
+      <artifactId>org.eclipse.equinox.common</artifactId>
+      <version>[3.15.0,)</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.core</groupId>
+      <artifactId>org.eclipse.core.jobs</artifactId>
+      <version>[3.12.0,4.0.0)</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.equinox</groupId>
+      <artifactId>org.eclipse.equinox.registry</artifactId>
+      <version>[3.11.0,4.0.0)</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.equinox</groupId>
+      <artifactId>org.eclipse.equinox.preferences</artifactId>
+      <version>[3.9.0,4.0.0)</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.core</groupId>
+      <artifactId>org.eclipse.core.contenttype</artifactId>
+      <version>[3.8.0,4.0.0)</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.equinox</groupId>
+      <artifactId>org.eclipse.equinox.app</artifactId>
+      <version>[1.6.0,)</version>
+    </dependency>
+  </dependencies>
+</project>

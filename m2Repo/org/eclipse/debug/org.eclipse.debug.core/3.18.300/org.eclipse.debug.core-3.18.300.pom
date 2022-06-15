@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xsi:noNamespaceSchemaLocation="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.eclipse.debug</groupId>
+  <artifactId>org.eclipse.debug.core</artifactId>
+  <version>3.18.300</version>
+  <description>Debug Core</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse.core</groupId>
+      <artifactId>org.eclipse.core.resources</artifactId>
+      <version>[3.9.0,4.0.0)</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.core</groupId>
+      <artifactId>org.eclipse.core.variables</artifactId>
+      <version>[3.2.800,4.0.0)</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.core</groupId>
+      <artifactId>org.eclipse.core.runtime</artifactId>
+      <version>[3.11.0,4.0.0)</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.core</groupId>
+      <artifactId>org.eclipse.core.filesystem</artifactId>
+      <version>[1.2.0,2.0.0)</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.core</groupId>
+      <artifactId>org.eclipse.core.expressions</artifactId>
+      <version>[3.4.0,4.0.0)</version>
+    </dependency>
+  </dependencies>
+</project>

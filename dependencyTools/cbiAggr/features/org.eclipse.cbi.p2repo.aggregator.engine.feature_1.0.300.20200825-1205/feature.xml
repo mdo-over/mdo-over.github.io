@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cbi.p2repo.aggregator.engine.feature"
+      label="%featureName"
+      version="1.0.300.20200825-1205"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+   
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cbi.p2repo.aggregator"
+         version="1.0.300.20200825-1205"
+         unpack="false" download-size="365" install-size="945"/>
+
+   <plugin
+         id="org.eclipse.cbi.p2repo.aggregator.engine"
+         version="1.0.300.20200619-1617"
+         unpack="false" download-size="181" install-size="422"/>
+
+   <plugin
+         id="org.eclipse.cbi.p2repo.aggregator.engine.maven"
+         version="1.0.300.20200619-1617"
+         unpack="false" download-size="32" install-size="72"/>
+
+   <plugin
+         id="org.eclipse.cbi.p2repo.util"
+         version="1.0.300.20190930-1609"
+         unpack="false" download-size="20" install-size="35"/>
+
+   <plugin
+         id="org.eclipse.cbi.p2repo.cli"
+         version="1.0.300.20190930-1609"
+         unpack="false" download-size="24" install-size="39"/>
+
+   <plugin
+         id="org.eclipse.cbi.p2repo.aggregator.legacy"
+         version="1.0.300.20190930-1609"
+         unpack="false" download-size="46" install-size="214"/>
+
+   <plugin
+         id="org.eclipse.cbi.p2repo.p2"
+         version="1.0.300.20200619-1617"
+         unpack="false" download-size="186" install-size="527"/>
+
+   <plugin
+         id="org.eclipse.cbi.p2repo.p2.maven"
+         version="1.0.300.20200619-1617"
+         unpack="false" download-size="407" install-size="1174"/>
+
+</feature>

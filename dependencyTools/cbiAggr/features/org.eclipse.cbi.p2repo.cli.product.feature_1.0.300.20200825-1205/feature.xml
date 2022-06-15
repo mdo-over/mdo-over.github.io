@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+  id="org.eclipse.cbi.p2repo.cli.product.feature"
+  label="%featureName"
+  version="1.0.300.20200825-1205"
+  provider-name="%providerName">
+
+  <description>
+    %description
+  </description>
+
+  <copyright>
+    %copyright
+  </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+  <includes
+    id="org.eclipse.equinox.p2.core.feature"
+    version="1.6.300.v20190903-0934" />
+  <includes
+    id="org.eclipse.equinox.core.feature"
+    version="1.10.0.v20190830-1434" />
+  <includes
+    id="org.eclipse.cbi.p2repo.aggregator.engine.feature"
+    version="1.0.300.20200825-1205" />
+  <includes
+    id="org.eclipse.cbi.p2repo.p2.maven.indexer.feature"
+    version="1.0.300.20200619-1617" />
+</feature>

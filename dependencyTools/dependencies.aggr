@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="MDover dependency repo" buildRoot="tempRepo" packedStrategy="UNPACK" type="M" mavenResult="true" versionFormat="MavenRelease">
+  <validationSets label="Henshin">
+    <contributions label="Henshin">
+      <repositories location="http://download.eclipse.org/modeling/emft/henshin/updates/nightly">
+        <bundles name="org.eclipse.emf.henshin.interpreter"/>
+        <bundles name="org.eclipse.emf.henshin.model"/>
+      </repositories>
+    </contributions>
+	<contributions label="Eclipse">
+    <repositories location="http://download.eclipse.org/releases/2021-12">
+		<bundles name="org.eclipse.emf.ecore.xmi"/>
+	</repositories>
+	</contributions>
+  </validationSets>
+  <configurations architecture="x86_64"/>
+</aggregator:Aggregation>

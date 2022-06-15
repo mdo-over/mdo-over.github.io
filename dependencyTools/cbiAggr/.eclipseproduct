@@ -1,0 +1,3 @@
+name=CBI Aggregator
+id=org.eclipse.cbi.p2repo.aggregator
+version=1.0.0
