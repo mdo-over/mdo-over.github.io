@@ -5,7 +5,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>MDOover</title>
+    <title>MD&#9678ver</title>
   </head>
   <body>
     <h1>MD&#9678;ver - Crossover operators for model-driven optimization</h1>
@@ -14,7 +14,27 @@
     
     <a href="https://github.com/mdo-over/mdo-over">GitHub repository</a>
     
-    <h2>Adding a dependency to &#9678; via Maven<h2>
-    [Maven repository](https://mdo-over.github.io/m2Repo)
+    <h2>Adding a dependency to MD&#9678ver; via Maven<h2>
+      
+      A dependency to MD&#9678ver can be declared as follows:
+      <code>
+       <dependency>
+		    <groupId>de.uni_marburg.mdover</groupId>
+			  <artifactId>de.uni_marburg.mdover</artifactId>
+			  <version>1.0.0-SNAPSHOT</version>
+	    </dependency>
+      </code>
+      
+      MD&#9678ver as well as its dependencies are hosted at GitHub.
+      So, make sure to add the respective Maven repository to you configuration.
+      <code>
+       <distributionManagement>
+        <repository>
+          <id>local</id>
+          <url>file://${project.basedir}/m2repo/release</url>
+        </repository>
+       </distributionManagement>
+      </code> 
+      
   </body>
 </html>
