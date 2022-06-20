@@ -19,19 +19,19 @@
       A dependency to MD&#9678ver can be declared as follows:
       <code>
        <dependency>
-		    <groupId>de.uni_marburg.mdover</groupId>
-			  <artifactId>de.uni_marburg.mdover</artifactId>
-			  <version>1.0.0-SNAPSHOT</version>
-	    </dependency>
+	<groupId>de.uni_marburg.mdover</groupId>
+	<artifactId>de.uni_marburg.mdover</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+       </dependency>
       </code>
       
       MD&#9678ver as well as its dependencies are hosted at GitHub.
-      So, make sure to add the respective Maven repository to you configuration.
+      So, make sure to add the respective Maven repository to you configuration:
       <code>
        <distributionManagement>
         <repository>
-          <id>local</id>
-          <url>file://${project.basedir}/m2repo/release</url>
+         <id>local</id>
+         <url>file://${project.basedir}/m2repo/release</url>
         </repository>
        </distributionManagement>
       </code> 
