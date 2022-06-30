@@ -48,6 +48,6 @@ jobs:
         # Default: '.'
         add: 'm2repo'
         push: 'origin testOverwrite'
-        author-email: 'stefan.john@uni-marburg.de'
+        author_email: 'stefan.john@uni-marburg.de'
         message: 'update to deployed mdo-over in m2repo'
         cwd: './page'
