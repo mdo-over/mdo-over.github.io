@@ -50,4 +50,4 @@ jobs:
         push: 'origin testOverwrite'
         author-email: 'stefan.john@uni-marburg.de'
         message: 'update to deployed mdo-over in m2repo'
-      working-directory: ./page
+        cwd: './page'
