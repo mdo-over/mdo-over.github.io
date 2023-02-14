@@ -23,16 +23,17 @@
 		&lt;version&gt;1.0.0-SNAPSHOT&lt;/version&gt;
 	&lt;/dependency&gt;
 </pre>
+<p>Keep in mind that you might have to update your local maven repo manually to get updates of this SNAPSHOT artifact.</p>
 
 <p>MD&#9678ver as well as its dependencies are hosted at GitHub.
       So, make sure to also add the respective Maven repository to you configuration:</p>
 <pre style="tab-size: 4">
-	&lt;distributionManagement&gt;
+	&lt;repositories&gt;
 		&lt;repository&gt;
-			&lt;id&gt;local&lt;/id&gt;
-			&lt;url&gt;file://${project.basedir}/m2repo/release&lt;/url&gt;
+			&lt;id&gt;mdooverDependencies&lt;/id&gt;
+			&lt;url&gt;https://mdo-over.github.io/m2repo&lt;/url&gt;
 		&lt;/repository&gt;
-	&lt;/distributionManagement&gt;
+	&lt;/repositories&gt;
 </pre>
       
   </body>
