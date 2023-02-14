@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>de.uni_marburg.mdo-over</groupId>
+  <artifactId>de.uni_marburg.mdo-over</artifactId>
+  <versioning>
+    <lastUpdated>20230213143749</lastUpdated>
+    <snapshot>
+      <timestamp>20230213.143749</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.0-20230213.143749-2</value>
+        <updated>20230213143749</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-20230213.143749-2</value>
+        <updated>20230213143749</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.0.0-20230213.143749-2</value>
+        <updated>20230213143749</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>1.0.0-20230213.143749-2</value>
+        <updated>20230213143749</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>1.0.0-SNAPSHOT</version>
+</metadata>
