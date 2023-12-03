@@ -3,33 +3,33 @@
   <groupId>de.uni_marburg.mdo-over</groupId>
   <artifactId>de.uni_marburg.mdo-over</artifactId>
   <versioning>
-    <lastUpdated>20230218125623</lastUpdated>
+    <lastUpdated>20231203124228</lastUpdated>
     <snapshot>
-      <timestamp>20230218.125623</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20231203.124228</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.0-20230218.125623-3</value>
-        <updated>20230218125623</updated>
+        <value>1.0.0-20231203.124228-4</value>
+        <updated>20231203124228</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-20230218.125623-3</value>
-        <updated>20230218125623</updated>
+        <value>1.0.0-20231203.124228-4</value>
+        <updated>20231203124228</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.0-20230218.125623-3</value>
-        <updated>20230218125623</updated>
+        <value>1.0.0-20231203.124228-4</value>
+        <updated>20231203124228</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.0.0-20230218.125623-3</value>
-        <updated>20230218125623</updated>
+        <value>1.0.0-20231203.124228-4</value>
+        <updated>20231203124228</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
